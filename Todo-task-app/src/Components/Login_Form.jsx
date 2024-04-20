@@ -20,7 +20,10 @@ const LoginForm = () => {
     const userData = { email, password };
     dispatch(signinUser(userData));
     console.log(userData);
-    nav("/task");
+    setTimeout(()=>{
+       nav("/task");
+    },1000)
+   
   };
   const tosignup = () => {
     nav("/signup");
