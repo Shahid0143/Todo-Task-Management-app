@@ -12,9 +12,6 @@ function HomePage() {
               All the crud operations like create, read, update, delete are
               handling in backend
             </li>
-            <li>
-              Implemented pagination.
-            </li>
             <li>Login & Signup functionality handling in backend</li>
             <li>Authentication is also handled using json web token.</li>
             <li>user may able to read update delete their on data.</li>
