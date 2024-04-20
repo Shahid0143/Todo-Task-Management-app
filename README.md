@@ -34,12 +34,13 @@ Task management app is a web application designed to add delete update the tasks
 
 
 ## Screenshots
-![Screenshot 1](./task_frontend/src/assets/home.png)
-![Screenshot 1](./task_frontend/src/assets/task.png)
-![Screenshot 1](./task_frontend/src/assets/login.png)
-![Screenshot 1](./task_frontend/src/assets/signup.png)
+![Screenshot (575)](https://github.com/Shahid0143/Todo-Task-Management-app/assets/112757232/b8d4b5f3-e6cd-485e-b3f4-4faf6228c93e)
 
+![Screenshot (574)](https://github.com/Shahid0143/Todo-Task-Management-app/assets/112757232/1cb0d890-dd91-4d6f-92f1-94b1024a609a)
 
+![Screenshot (576)](https://github.com/Shahid0143/Todo-Task-Management-app/assets/112757232/2022032e-5c8a-4e62-a6fa-c72253904455)
+
+![Screenshot (577)](https://github.com/Shahid0143/Todo-Task-Management-app/assets/112757232/47e471bd-d204-4e2a-883a-97107e67176a)
 
 ## Deployment
 
