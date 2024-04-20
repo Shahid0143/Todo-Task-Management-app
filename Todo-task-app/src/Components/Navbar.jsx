@@ -26,7 +26,7 @@ function Navbar() {
   };
 
   return (
-    <nav className="nav p-md-3 flex items-center justify-center gap-24 shadow-md">
+    <nav className="nav p-md-3 flex items-center justify-center gap-24 shadow-md bg-gray-700">
       <div className=" absolute left-4">
         <img
           className="h-10 w-10 rounded-full"
@@ -73,12 +73,7 @@ function Navbar() {
       )}
 
       <div className="flex items-center absolute right-6 gap-6">
-        <button
-          className="nav-icon"
-          onClick={() => {
-            // Handle notification click
-          }}
-        >
+        <button className="nav-icon text-white">
           <FiBell style={{ fontSize: "1.5rem" }} />
         </button>
         <div className="relative">

@@ -14,16 +14,13 @@ const LoginForm = () => {
 
   const nav = useNavigate();
 
- 
-
   const handleLogin = () => {
     const userData = { email, password };
     dispatch(signinUser(userData));
     console.log(userData);
-    setTimeout(()=>{
-       nav("/task");
-    },1000)
-   
+    setTimeout(() => {
+      nav("/task");
+    }, 1000);
   };
   const tosignup = () => {
     nav("/signup");
@@ -34,8 +31,8 @@ const LoginForm = () => {
 
   console.log(data);
   return (
-    <div className="Form_contain">
-      <h2 className="text-center text-2xl font-bold">Login</h2>
+    <div className="Form_contain bg-gray-700">
+      <h2 className="text-center text-2xl font-bold text-white">Login</h2>
       <div className="form3 login_form">
         <input
           type="email"
@@ -49,7 +46,7 @@ const LoginForm = () => {
           value={password}
           onChange={(e) => setPassword(e.target.value)}
         />
-        <button className="signup_btn" onClick={handleLogin}>
+        <button className="signup_btn " onClick={handleLogin}>
           Login
         </button>
         <span onClick={tosignup} className="text-[#030710] cursor-pointer">

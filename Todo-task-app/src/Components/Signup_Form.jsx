@@ -22,8 +22,8 @@ const SignupForm = () => {
   };
 
   return (
-    <div className="Form_contain">
-      <h2 className=" text-center text-2xl font-bold ">Signup</h2>
+    <div className="Form_contain bg-gray-700">
+      <h2 className=" text-center text-2xl font-bold text-white ">Signup</h2>
       <div className="form3">
         <input
           type="email"

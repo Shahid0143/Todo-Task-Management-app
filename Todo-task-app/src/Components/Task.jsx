@@ -49,7 +49,7 @@ const Task = () => {
 
   return (
     <>
-      <div className="main-container-todo">
+      <div className="main-container-todo bg-gray-700">
         <div className="cont w-[25%] todo-container max-w-lg p-5 rounded-lg shadow-md">
           <h2 className="todo text-center text-2xl">Todo List</h2>
           <div className="data flex justify-between">
