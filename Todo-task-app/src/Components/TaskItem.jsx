@@ -42,17 +42,27 @@ function TaskItem() {
     const newStatus = currentStatus;
     dispatch(updateTask(id, newStatus));
     toast.success(newStatus ? "Task Completed" : "Task Marked Pending");
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
   };
 
   const handlepriority = (id, currentPriority) => {
     dispatch(updatePriority(id, currentPriority));
     toast.success("Priority Set to " + currentPriority);
+
+    setTimeout(() => {
+      window.location.reload();
+    }, 1000);
   };
 
   const handle_Delete = (id) => {
     dispatch(deleteTask(id));
     toast.success("Task deleted successfully");
     dispatch(getTASKS());
+    setTimeout(() => {
+      window.location.reload();
+    }, 2000);
   };
 
   const handleEditChange = (e) => {
